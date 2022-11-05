@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+}
+
+.half1 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1400px;
+    height: 760px;
+}
+
+.crown {
+    position: absolute;
+    color: #27AE60;
+    left: 145px;
+    top: 45px;
+    border-radius: 0px;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    cursor: pointer;
+}
+
+ul {
+    position: absolute;
+    top: 52px;
+    left: 389px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    margin-right: 46px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #1F1F24;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1F24;
+}
+
+li>a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+li>a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 29px;
+    background: transparent;
+    transition: all 0.3s;
+    position: absolute;
+}
+
+li>a:hover::after {
+    width: 100%;
+    background: lightgreen;
+}
+
+.azselect {
+    position: absolute;
+    top: 52px;
+    left: 975px;
+    width: 50px;
+    height: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.az {
+    position: absolute;
+    top: 52px;
+    left: 987px;
+    font-family: 'Zilla Slab', serif;
+    color: #253476;
+}
+
+/* .qqq {
+    position: absolute;
+    background-image: url(../Images/qus.png);
+    height: 8px;
+    width: 11px;
+    left: 1010px;
+    top: 58px;
+    border-radius: 0px;
+    cursor: pointer;
+} */
+
+.goy {
+    position: absolute;
+    background-image: url(../Images/goy.png);
+    width: 305px;
+    height: 83px;
+    background-repeat: no-repeat;
+    right: -1px;
+}
+
+.text1 {
+    color: white;
+    font-family: Zilla Slab;
+    height: 34px;
+    width: 102px;
+    left: 17px;
+    top: 23px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'Zilla Slab', serif;
+}
+
+.tac {
+    background-image: url(../Images/crownss.png);
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 26px;
+    left: 196px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.xet {
+    background-image: url(../Images/Line\ 24.png);
+    position: absolute;
+    width: 700px;
+    height: 1px;
+    top: 82px;
+    left: 429px;
+}
+
+.skl {
+    position: absolute;
+    background-image: url(../Images/orta.png);
+    width: 1110px;
+    height: 300px;
+    left: 145px;
+    top: 113px;
+    border-radius: 15px;
+}
+
+.yazi {
+    position: absolute;
+    width: 690px;
+    height: 104px;
+    left: 194px;
+    top: 97px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 138%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #27AE60;
+}
+
+.yazi2 {
+    position: absolute;
+    width: 690px;
+    height: 104px;
+    left: 194px;
+    top: 148px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 138%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #494949;
+}
+
+.xet2 {
+    background-image: url(../Images/Lineq);
+    position: absolute;
+    width: 1110px;
+    height: 0px;
+    left: 145px;
+    top: 443px;
+    border: 1px dashed #CECECE;
+}
+
+.aa {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 145px;
+    top: 478px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url(../Images/aa.png);
+}
+
+.azz {
+    background-image: url(../Images/zz.png);
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 145px;
+    top: 478px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+}
+
+.bb {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 525px;
+    top: 478px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url(../Images/bb.png);
+}
+
+.bz {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 525px;
+    top: 478px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+}
+
+.cz {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 905px;
+    top: 478px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+}
+
+.dz {
+    position: absolute;
+    width: 350px;
+    height: 381px;
+    left: 145px;
+    top: 927px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+}
+
+.ez {
+    position: absolute;
+    width: 350px;
+    height: 375px;
+    left: 525px;
+    top: 933px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+}
+
+.fz {
+    position: absolute;
+    width: 350px;
+    height: 381px;
+    left: 905px;
+    top: 927px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+}
+
+.cc {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 905px;
+    top: 478px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url(../Images/cc.png);
+}
+
+.dd {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 145px;
+    top: 908px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url(../Images/dd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ee {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 525px;
+    top: 908px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url(../Images/ee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ff {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 905px;
+    top: 908px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url(../Images/ff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fish {
+    position: absolute;
+    width: 128px;
+    height: 29px;
+    left: 180px;
+    top: 763px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.ftext {
+    position: absolute;
+    width: 271px;
+    height: 41px;
+    left: 180px;
+    top: 802px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.cake {
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 560px;
+    top: 763px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.ctext {
+    position: absolute;
+    width: 271px;
+    height: 41px;
+    left: 560px;
+    top: 802px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.roasted {
+    position: absolute;
+    width: 175px;
+    height: 29px;
+    left: 940px;
+    top: 763px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.rtext {
+    position: absolute;
+    width: 271px;
+    height: 41px;
+    left: 940px;
+    top: 802px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.fish2 {
+    position: absolute;
+    width: 128px;
+    height: 29px;
+    left: 180px;
+    top: 1189px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.f2text {
+    position: absolute;
+    width: 271px;
+    height: 41px;
+    left: 180px;
+    top: 1228px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.lorem {
+    position: absolute;
+    width: 140px;
+    height: 29px;
+    left: 560px;
+    top: 1193px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.ltext {
+    position: absolute;
+    width: 271px;
+    height: 41px;
+    left: 560px;
+    top: 1232px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.salad {
+    position: absolute;
+    width: 126px;
+    height: 29px;
+    left: 940px;
+    top: 1193px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.stext {
+    position: absolute;
+    width: 271px;
+    height: 41px;
+    left: 940px;
+    top: 1232px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
